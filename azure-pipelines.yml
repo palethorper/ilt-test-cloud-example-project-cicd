@@ -8,7 +8,7 @@ steps:
 # 1. Ensure the UiPath CLI toolset is installed on the agent
 - task: UiPathInstallPlatform@6
   inputs:
-    cliVersion: Windows.25.10.7'
+    cliVersion: 'Windows.25.10.7'
 
 # 2. Package your UiPath Test Automation Project
 - task: UiPathPack@6
