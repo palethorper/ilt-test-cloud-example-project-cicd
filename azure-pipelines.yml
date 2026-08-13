@@ -20,14 +20,14 @@ steps:
 # 3. Deploy the package into your Test Orchestrator
 - task: UiPathDeploy@6
   inputs:
-    orchestratorConnection: 'ADO-CICD-Demo-ANZ_PS'
+    orchestratorConnection: 'UiPath-ANZ_PS_Staging'
     folderName: 'Shared'
     packagePath: '$(Build.ArtifactStagingDirectory)'
 
 # 4. Trigger and execute your Test Cases
 - task: UiPathTest@6
   inputs:
-    orchestratorConnection: 'ADO-CICD-Demo-ANZ_PS'
+    orchestratorConnection: 'UiPath-ANZ_PS_Staging'
     folderName: 'Shared'
     testStrategy: 'TestSet' # Or 'TestProject' for transient runs
     testSet: 'Regression_Test_Set' # Name of pre-defined test set
