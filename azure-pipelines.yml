@@ -8,7 +8,7 @@ steps:
 # 1. Ensure the UiPath CLI toolset is installed on the agent
 - task: UiPathInstallPlatform@6
   inputs:
-    cliVersion: '24.10.0'
+    cliVersion: Windows.25.10.7'
 
 # 2. Package your UiPath Test Automation Project
 - task: UiPathPack@6
@@ -32,3 +32,4 @@ steps:
     testStrategy: 'TestSet' # Or 'TestProject' for transient runs
     testSet: 'Regression_Test_Set' # Name of pre-defined test set
     junitReportPath: '$(Build.ResultsDirectory)/test-results.xml'
+
