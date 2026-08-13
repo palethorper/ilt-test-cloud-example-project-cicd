@@ -1,0 +1,34 @@
+trigger:
+  - main
+
+pool:
+  vmImage: 'windows-latest' # Build agents must be Windows-based
+
+steps:
+# 1. Ensure the UiPath CLI toolset is installed on the agent
+- task: UiPathInstallPlatform@6
+  inputs:
+    cliVersion: '24.10.0'
+
+# 2. Package your UiPath Test Automation Project
+- task: UiPathPack@6
+  inputs:
+    projectJsonPath: '$(Build.SourcesDirectory)/project.json'
+    outputPath: '$(Build.ArtifactStagingDirectory)'
+    outputType: 'Tests' # Set type specifically to Tests
+
+# 3. Deploy the package into your Test Orchestrator
+- task: UiPathDeploy@6
+  inputs:
+    orchestratorConnection: 'UiPath-ANZ_PS_Staging'
+    folderName: 'Shared'
+    packagePath: '$(Build.ArtifactStagingDirectory)'
+
+# 4. Trigger and execute your Test Cases
+- task: UiPathTest@6
+  inputs:
+    orchestratorConnection: 'UiPath-ANZ_PS_Staging'
+    folderName: 'Shared'
+    testStrategy: 'TestSet' # Or 'TestProject' for transient runs
+    testSet: 'Regression_Test_Set' # Name of pre-defined test set
+    junitReportPath: '$(Build.ResultsDirectory)/test-results.xml'
