@@ -13,6 +13,7 @@ steps:
 # 2. Package your UiPath Test Automation Project
 - task: UiPathPack@6
   inputs:
+    versionType: 'AutoVersion'
     projectJsonPath: '$(Build.SourcesDirectory)/project.json'
     outputPath: '$(Build.ArtifactStagingDirectory)'
     outputType: 'Tests' # Set type specifically to Tests
