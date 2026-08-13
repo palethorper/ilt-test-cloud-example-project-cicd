@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Register For Account",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "3ZDPlxZ8NUK_udG3t0ULCQ",
+  "Reference": "GtvnX6OfOUCtv3dQPEjiDg/3ZDPlxZ8NUK_udG3t0ULCQ",
+  "ParentRef": "GtvnX6OfOUCtv3dQPEjiDg/NSvg5CObVUWNlcOLHiCdTA",
+  "Created": "2026-08-13T11:17:53.5258454Z",
+  "Updated": "2026-08-13T11:17:53.5258454Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

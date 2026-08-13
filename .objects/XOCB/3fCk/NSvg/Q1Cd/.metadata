@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Apply For Account →",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "Q1CdelEYDEm6dFeFDPIttQ",
+  "Reference": "GtvnX6OfOUCtv3dQPEjiDg/Q1CdelEYDEm6dFeFDPIttQ",
+  "ParentRef": "GtvnX6OfOUCtv3dQPEjiDg/NSvg5CObVUWNlcOLHiCdTA",
+  "Created": "2026-08-13T11:17:53.3123374Z",
+  "Updated": "2026-08-13T11:17:53.3123374Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

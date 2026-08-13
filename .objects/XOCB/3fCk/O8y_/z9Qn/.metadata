@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Loan Amount Requested",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "z9QnjrqGLU-mZi6d5mkD1g",
+  "Reference": "GtvnX6OfOUCtv3dQPEjiDg/z9QnjrqGLU-mZi6d5mkD1g",
+  "ParentRef": "GtvnX6OfOUCtv3dQPEjiDg/O8y_-ew220CgopGL20fcbA",
+  "Created": "2026-08-13T03:31:39.0116426Z",
+  "Updated": "2026-08-13T03:31:39.0116426Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

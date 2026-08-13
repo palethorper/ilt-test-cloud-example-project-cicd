@@ -1,0 +1,20 @@
+{
+  "dataVariationFileInfo": [
+    {
+      "filePath": ".variations\\Approval for $10,000 minimal income.json",
+      "dataVariationType": "File"
+    },
+    {
+      "filePath": ".variations\\UiBankLoanDataRob_Name.json",
+      "dataVariationType": "Entity"
+    },
+    {
+      "filePath": ".variations\\APITestData_Sheet1.json",
+      "dataVariationType": "File"
+    },
+    {
+      "filePath": ".variations\\UiBankLoanDataRob_Amount = 2000.json",
+      "dataVariationType": "Entity"
+    }
+  ]
+}

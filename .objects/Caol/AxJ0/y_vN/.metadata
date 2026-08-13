@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Accounts",
+  "Type": "Screen",
+  "Id": "y_vN5D3pv0WaDjiQwmxEPQ",
+  "Reference": "GtvnX6OfOUCtv3dQPEjiDg/y_vN5D3pv0WaDjiQwmxEPQ",
+  "ParentRef": "GtvnX6OfOUCtv3dQPEjiDg/AxJ0DGBN8kKFNxQarTy8kw",
+  "Created": "2026-08-13T04:46:58.9948392Z",
+  "Updated": "2026-08-13T04:46:58.9948392Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

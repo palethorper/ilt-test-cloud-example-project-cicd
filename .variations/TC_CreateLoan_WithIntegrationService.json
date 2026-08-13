@@ -1,0 +1,18 @@
+[
+  {
+    "Amount": 2000.0,
+    "Term": 10.0,
+    "Income": 1000.0,
+    "Age": 25.0,
+    "Email": "OrchestratorRedder@gmail.com",
+    "Accepted": true
+  },
+  {
+    "Amount": 2000.0,
+    "Term": 10.0,
+    "Income": 0.0,
+    "Age": 16.0,
+    "Email": "OrchestratorRedder@gmail.com",
+    "Accepted": true
+  }
+]

@@ -1,0 +1,242 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TC_CreateLoan_WithIntegrationService" this:TC_CreateLoan_WithIntegrationService.Amount="25000" this:TC_CreateLoan_WithIntegrationService.Term="3" this:TC_CreateLoan_WithIntegrationService.Income="5000" this:TC_CreateLoan_WithIntegrationService.Age="25" this:TC_CreateLoan_WithIntegrationService.Email="robp@path.com" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:a="clr-namespace:Application_Testing_ILT;assembly=DataService.Application_Testing_ILT" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:uda="clr-namespace:UiPath.DataService.Activities;assembly=UiPath.DataService.Activities.Core" xmlns:udam="clr-namespace:UiPath.DataService.Activities.Models;assembly=UiPath.DataService.Activities.Core" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="Amount" Type="InArgument(x:Double)" />
+    <x:Property Name="Term" Type="InArgument(x:Double)" />
+    <x:Property Name="Income" Type="InArgument(x:Double)" />
+    <x:Property Name="Age" Type="InArgument(x:Double)" />
+    <x:Property Name="Email" Type="InArgument(x:String)" />
+    <x:Property Name="Accepted" Type="InArgument(x:Boolean)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>TC_CreateLoan_WithIntegrationService_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.DataService.Activities</x:String>
+      <x:String>UiPath.DataService.Definition</x:String>
+      <x:String>UiPath.DataService.Activities.Models</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>Application_Testing_ILT</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>netstandard</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.DataService.Activities.Core</AssemblyReference>
+      <AssemblyReference>UiPath.DataService.Definition</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>DataService.Application_Testing_ILT</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="UiBank Create Loan - Data-Driven API Test" sap:VirtualizedContainerService.HintSize="1164,1122" sap2010:WorkflowViewState.IdRef="Sequence_Root">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Int32" Name="amountInt" />
+      <Variable x:TypeArguments="x:Int32" Name="termInt" />
+      <Variable x:TypeArguments="x:Int32" Name="incomeInt" />
+      <Variable x:TypeArguments="x:Int32" Name="ageInt" />
+      <Variable x:TypeArguments="x:Object" Name="createLoanResponse" />
+      <Variable x:TypeArguments="x:Boolean" Name="actualAccepted" />
+      <Variable x:TypeArguments="x:Double" Name="quoteRate" />
+      <Variable x:TypeArguments="x:String" Name="quoteId" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Given - Prepare the current Excel data row" sap:VirtualizedContainerService.HintSize="486,57" sap2010:WorkflowViewState.IdRef="Sequence_Given">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Assign DisplayName="Convert Amount to Int32" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_Amount">
+        <Assign.To>
+          <OutArgument x:TypeArguments="x:Int32">[amountInt]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="x:Int32">[CInt(Amount)]</InArgument>
+        </Assign.Value>
+      </Assign>
+      <Assign DisplayName="Convert Term to Int32" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_Term">
+        <Assign.To>
+          <OutArgument x:TypeArguments="x:Int32">[termInt]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="x:Int32">[CInt(Term)]</InArgument>
+        </Assign.Value>
+      </Assign>
+      <Assign DisplayName="Convert Income to Int32" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_Income">
+        <Assign.To>
+          <OutArgument x:TypeArguments="x:Int32">[incomeInt]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="x:Int32">[CInt(Income)]</InArgument>
+        </Assign.Value>
+      </Assign>
+      <Assign DisplayName="Convert Age to Int32" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_Age">
+        <Assign.To>
+          <OutArgument x:TypeArguments="x:Int32">[ageInt]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="x:Int32">[CInt(Age)]</InArgument>
+        </Assign.Value>
+      </Assign>
+      <ui:LogMessage DisplayName="Log current test data" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="Log_Input" Message="[String.Format(&quot;Create Loan input | Amount={0}, Term={1}, Income={2}, Age={3}, Email={4}, ExpectedAccepted={5}&quot;, amountInt, termInt, incomeInt, ageInt, Email, Accepted)]" />
+    </Sequence>
+    <Sequence DisplayName="When - Create the loan quote through Integration Service" sap:VirtualizedContainerService.HintSize="486,994" sap2010:WorkflowViewState.IdRef="Sequence_When">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:Comment DisplayName="Configure Insert Record here" sap:VirtualizedContainerService.HintSize="452,225" sap2010:WorkflowViewState.IdRef="Comment_InsertRecord" Text="Add the Integration Service 'Insert Record' activity immediately above the check below. Select the existing uibank-api connection and object QuotesNewquote. Map amountInt, termInt, incomeInt, ageInt, and Email. Store the Jit/Create response output in createLoanResponse (Object). The rest of the test is already wired." />
+      <uda:CreateEntityRecord x:TypeArguments="a:UiBankLoanDataRob" InputEntity="{x:Null}" VisibleDynamicPropertiesInfo="{x:Null}" ContinueOnError="False" DisplayName="Create Entity Record" EntityId="d6c5e964-0697-f111-9b33-6045bdd6658d" ExpansionDepth="2" sap:VirtualizedContainerService.HintSize="452,414" sap2010:WorkflowViewState.IdRef="CreateEntityRecord`1_1" InputEntityInFieldView="[new Application_Testing_ILT.UiBankLoanDataRob() With {  .Age = ageInt,  .EmailId = Email,  .LoanAmount = amountInt,  .LoanTerm = termInt,  .YearlyIncome = incomeInt }]" IsInRecordView="False" OutputEntity="[createLoanResponse]" TimeoutInMs="30000">
+        <uda:CreateEntityRecord.State>
+          <udam:RecordState>
+            <udam:RecordState.SelectedFields>
+              <scg:List x:TypeArguments="udam:DynamicEntityField" Capacity="5">
+                <udam:DynamicEntityField Id="9261a69c-4c89-43f6-8c45-0d330cdf88f5" Name="Age">
+                  <udam:DynamicEntityField.ArgumentValue>
+                    <InArgument x:TypeArguments="x:Decimal">[ageInt]</InArgument>
+                  </udam:DynamicEntityField.ArgumentValue>
+                </udam:DynamicEntityField>
+                <udam:DynamicEntityField Id="1fad6615-6dba-41d3-8396-c9cb0a8cab06" Name="EmailId">
+                  <udam:DynamicEntityField.ArgumentValue>
+                    <InArgument x:TypeArguments="x:String">[Email]</InArgument>
+                  </udam:DynamicEntityField.ArgumentValue>
+                </udam:DynamicEntityField>
+                <udam:DynamicEntityField Id="4500f15e-44b9-4680-846d-ccf6a987502d" Name="LoanAmount">
+                  <udam:DynamicEntityField.ArgumentValue>
+                    <InArgument x:TypeArguments="x:Decimal">[amountInt]</InArgument>
+                  </udam:DynamicEntityField.ArgumentValue>
+                </udam:DynamicEntityField>
+                <udam:DynamicEntityField Id="bc7ae6f7-403a-44be-969b-f448b7b91c83" Name="LoanTerm">
+                  <udam:DynamicEntityField.ArgumentValue>
+                    <InArgument x:TypeArguments="x:Decimal">[termInt]</InArgument>
+                  </udam:DynamicEntityField.ArgumentValue>
+                </udam:DynamicEntityField>
+                <udam:DynamicEntityField Id="cd32ccc3-3da9-437b-907c-7b116a1aede8" Name="YearlyIncome">
+                  <udam:DynamicEntityField.ArgumentValue>
+                    <InArgument x:TypeArguments="x:Decimal">[incomeInt]</InArgument>
+                  </udam:DynamicEntityField.ArgumentValue>
+                </udam:DynamicEntityField>
+              </scg:List>
+            </udam:RecordState.SelectedFields>
+          </udam:RecordState>
+        </uda:CreateEntityRecord.State>
+      </uda:CreateEntityRecord>
+      <If Condition="[createLoanResponse Is Nothing]" DisplayName="Confirm Insert Record returned a response" sap:VirtualizedContainerService.HintSize="452,263" sap2010:WorkflowViewState.IdRef="If_ResponseMissing">
+        <If.Then>
+          <Throw DisplayName="Integration Service activity still needs configuring" Exception="[New InvalidOperationException(&quot;Add and configure the uibank-api Insert Record activity in the When section, then assign its response output to createLoanResponse.&quot;)]" sap:VirtualizedContainerService.HintSize="450,91" sap2010:WorkflowViewState.IdRef="Throw_ResponseMissing" />
+        </If.Then>
+        <If.Else>
+          <Sequence DisplayName="Else" sap2010:WorkflowViewState.IdRef="Sequence_2" />
+        </If.Else>
+      </If>
+    </Sequence>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,48" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="708,881" sap2010:WorkflowViewState.IdRef="Sequence_1">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Sequence DisplayName="Then - Verify acceptance and log the quote" sap:VirtualizedContainerService.HintSize="674,821" sap2010:WorkflowViewState.IdRef="Sequence_Then">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Assign DisplayName="Read accepted from API response" sap:VirtualizedContainerService.HintSize="640,175" sap2010:WorkflowViewState.IdRef="Assign_Accepted">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:Boolean">[actualAccepted]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:Boolean">[CBool(createLoanResponse.GetType().GetProperty("accepted").GetValue(createLoanResponse))]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <Assign DisplayName="Read rate from API response" sap:VirtualizedContainerService.HintSize="640,175" sap2010:WorkflowViewState.IdRef="Assign_Rate">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:Double">[quoteRate]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:Double">[CDbl(createLoanResponse.GetType().GetProperty("rate").GetValue(createLoanResponse))]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <Assign DisplayName="Read quote ID from API response" sap:VirtualizedContainerService.HintSize="640,175" sap2010:WorkflowViewState.IdRef="Assign_QuoteId">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[quoteId]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">[CStr(createLoanResponse.GetType().GetProperty("quoteid").GetValue(createLoanResponse))]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <uta:VerifyExpression KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" AlternativeVerificationTitle="Verify UiBank accepted value" ContinueOnFailure="False" DisplayName="Verify accepted matches expected" Expression="[actualAccepted = Accepted]" sap:VirtualizedContainerService.HintSize="640,123" sap2010:WorkflowViewState.IdRef="Verify_Accepted" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+            <ui:LogMessage DisplayName="Log quote result" sap:VirtualizedContainerService.HintSize="640,90" sap2010:WorkflowViewState.IdRef="Log_Result" Message="[String.Format(&quot;Create Loan result | Accepted={0}, Rate={1}, QuoteId={2}&quot;, actualAccepted, quoteRate, quoteId)]" />
+          </Sequence>
+        </Sequence>
+      </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:CommentOut>
+  </Sequence>
+</Activity>

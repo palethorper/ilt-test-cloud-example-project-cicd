@@ -1,0 +1,40 @@
+{
+  "assemblyStates": {
+    "C7A936B4AB9_Accounts.FlDsB1amteG1nJADP4y5Q7i2": {
+      "namespace": "UiPath.IntegrationService.Activities.SWEntities.C7A936B4AB9_Accounts_Retrieve.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.C7A936B4AB9_Accounts_Retrieve",
+        "hash": "S2xGNTZRNXBTczk4Uk9hRnNlT3UxTHM4TXJ3T0hxNGpZNlF4QWpzWXEwbE9weWRtMjZCQktxSXVJa2RTNndOZkp5Ylo1dGI5c0l3UHErYWVkclRpRHc9PQ",
+        "assemblyName": "C7A936B4AB9_Accounts.FlDsB1amteG1nJADP4y5Q7i2"
+      }
+    },
+    "C7A936B4AB9_Accounts.kVyNGl7VjF15oL9Q1pc0lI": {
+      "namespace": "UiPath.IntegrationService.Activities.SWEntities.C7A936B4AB9_Accounts_List.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.C7A936B4AB9_Accounts_List",
+        "hash": "S05xcFZkayt1TEhvM1lQK1laaUUxUHE4dnRHWDZ3QUtlZStWeU1CejYxbm1zTm9YK2l5Z2J2ZXpoM2NJaUNMdWFzdWMxaEVQeEw0RU9NSzhiVHFyd2c9PQ",
+        "assemblyName": "C7A936B4AB9_Accounts.kVyNGl7VjF15oL9Q1pc0lI"
+      }
+    },
+    "C7A936B4AB9_QuotesNe.8z8TC2GeHlC1gU26MBcxe": {
+      "namespace": "UiPath.IntegrationService.Activities.SWEntities.C7A936B4AB9_QuotesNewquote_Create.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.C7A936B4AB9_QuotesNewquote_Create",
+        "hash": "U2NaMFRPZlYvc2wzUmd5Z240NWE0TVg4UU5QREpzRXdGdGlSVjdXSzFBNjlVQm5KZEgzTzZQQXhnSkRlYUZFbnlPSkdLU1g2eVlTRHM4QkI5VlZRTEE9PQ",
+        "assemblyName": "C7A936B4AB9_QuotesNe.8z8TC2GeHlC1gU26MBcxe"
+      }
+    },
+    "CCCADC469F5_QuotesNe.pee1js84zN1XJlmW3Htguu3": {
+      "namespace": "UiPath.IntegrationService.Activities.SWEntities.CCCADC469F5_QuotesNewquote_Create.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.CCCADC469F5_QuotesNewquote_Create",
+        "hash": "U2NaMFRPZlYvc2wzUmd5Z240NWE0TVg4UU5QREpzRXdGdGlSVjdXSzFBNjlVQm5KZEgzTzZQQXhnSkRlYUZFbnlPSkdLU1g2eVlTRHM4QkI5VlZRTEE9PQ",
+        "assemblyName": "CCCADC469F5_QuotesNe.pee1js84zN1XJlmW3Htguu3"
+      }
+    }
+  }
+}

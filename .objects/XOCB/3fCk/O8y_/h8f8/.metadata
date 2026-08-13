@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Age",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "h8f8ipQagEG-nF6HxPvKSA",
+  "Reference": "GtvnX6OfOUCtv3dQPEjiDg/h8f8ipQagEG-nF6HxPvKSA",
+  "ParentRef": "GtvnX6OfOUCtv3dQPEjiDg/O8y_-ew220CgopGL20fcbA",
+  "Created": "2026-08-13T03:31:39.285518Z",
+  "Updated": "2026-08-13T03:31:39.285518Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

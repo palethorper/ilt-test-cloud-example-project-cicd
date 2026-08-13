@@ -1,0 +1,9 @@
+{
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://staging.uipath.com/testcloud_team/ps_anz/testmanager_",
+  "defaultProject": {
+    "id": "c3ed97e8-209d-0100-6af3-0b49ff0ac0e0",
+    "name": "UiBank-ABN",
+    "key": "UIBABN"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "Workflows": [
+    {
+      "Path": "4.APIs/TC_CreateLoan_WithIntegrationService.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Privacy Policy",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "H56xn1rA9E-mACqN82shxQ",
+  "Reference": "GtvnX6OfOUCtv3dQPEjiDg/H56xn1rA9E-mACqN82shxQ",
+  "ParentRef": "GtvnX6OfOUCtv3dQPEjiDg/NSvg5CObVUWNlcOLHiCdTA",
+  "Created": "2026-08-13T11:17:53.4960575Z",
+  "Updated": "2026-08-13T11:17:53.4960575Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

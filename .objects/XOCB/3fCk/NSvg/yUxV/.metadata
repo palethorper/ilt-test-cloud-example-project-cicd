@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Need a Loan?",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "yUxV4Avrp0a4MW3K99W7pQ",
+  "Reference": "GtvnX6OfOUCtv3dQPEjiDg/yUxV4Avrp0a4MW3K99W7pQ",
+  "ParentRef": "GtvnX6OfOUCtv3dQPEjiDg/NSvg5CObVUWNlcOLHiCdTA",
+  "Created": "2026-08-13T11:17:53.4641191Z",
+  "Updated": "2026-08-13T11:17:53.4641191Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.2.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

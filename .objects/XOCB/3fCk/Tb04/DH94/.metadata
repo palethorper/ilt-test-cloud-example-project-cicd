@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Loan Rate Text",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "DH94-0i6NE2tP0jFWWqQnQ",
+  "Reference": "GtvnX6OfOUCtv3dQPEjiDg/DH94-0i6NE2tP0jFWWqQnQ",
+  "ParentRef": "GtvnX6OfOUCtv3dQPEjiDg/Tb04hKQCpUyFVokjgZXwfw",
+  "Created": "2026-08-13T11:17:25.9939373Z",
+  "Updated": "2026-08-13T11:17:25.9939373Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
