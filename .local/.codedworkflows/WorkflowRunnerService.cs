@@ -18,6 +18,23 @@ namespace ApplicationTestingILT
         }
 
         /// <summary>
+        /// Invokes the Approval at age boundary 65.xaml
+        /// </summary>
+		/// <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        public void Approval_at_age_boundary_65(System.Boolean isolated)
+        {
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"Approval at age boundary 65.xaml", new Dictionary<string, object> { }, default, isolated, default, GetAssemblyName());
+        }
+
+        /// <summary>
+        /// Invokes the Approval at age boundary 65.xaml
+        /// </summary>
+        public void Approval_at_age_boundary_65()
+        {
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"Approval at age boundary 65.xaml", new Dictionary<string, object> { }, default, default, default, GetAssemblyName());
+        }
+
+        /// <summary>
         /// Invokes the Approval for $10,000 minimal income.xaml
         /// </summary>
 		/// <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
@@ -35,20 +52,37 @@ namespace ApplicationTestingILT
         }
 
         /// <summary>
-        /// Invokes the 4.APIs/CreateLoanTestData.xaml
+        /// Invokes the 3.Test Data Management/AI Generated/CreateDataFabricData.xaml
+        /// </summary>
+		/// <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        public void CreateDataFabricData(int Amount, int Term, int Income, int Age, string Email, bool Accepted, System.Boolean isolated)
+        {
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"3.Test Data Management\AI Generated\CreateDataFabricData.xaml", new Dictionary<string, object> { { "Amount", Amount }, { "Term", Term }, { "Income", Income }, { "Age", Age }, { "Email", Email }, { "Accepted", Accepted } }, default, isolated, default, GetAssemblyName());
+        }
+
+        /// <summary>
+        /// Invokes the 3.Test Data Management/AI Generated/CreateDataFabricData.xaml
+        /// </summary>
+        public void CreateDataFabricData(int Amount, int Term, int Income, int Age, string Email, bool Accepted)
+        {
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"3.Test Data Management\AI Generated\CreateDataFabricData.xaml", new Dictionary<string, object> { { "Amount", Amount }, { "Term", Term }, { "Income", Income }, { "Age", Age }, { "Email", Email }, { "Accepted", Accepted } }, default, default, default, GetAssemblyName());
+        }
+
+        /// <summary>
+        /// Invokes the 3.Test Data Management/AI Generated/CreateLoanTestData.xaml
         /// </summary>
 		/// <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
         public void CreateLoanTestData(int Amount, int Term, int Income, int Age, string Email, bool Accepted, System.Boolean isolated)
         {
-            var result = _services.WorkflowInvocationService.RunWorkflow(@"4.APIs\CreateLoanTestData.xaml", new Dictionary<string, object> { { "Amount", Amount }, { "Term", Term }, { "Income", Income }, { "Age", Age }, { "Email", Email }, { "Accepted", Accepted } }, default, isolated, default, GetAssemblyName());
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"3.Test Data Management\AI Generated\CreateLoanTestData.xaml", new Dictionary<string, object> { { "Amount", Amount }, { "Term", Term }, { "Income", Income }, { "Age", Age }, { "Email", Email }, { "Accepted", Accepted } }, default, isolated, default, GetAssemblyName());
         }
 
         /// <summary>
-        /// Invokes the 4.APIs/CreateLoanTestData.xaml
+        /// Invokes the 3.Test Data Management/AI Generated/CreateLoanTestData.xaml
         /// </summary>
         public void CreateLoanTestData(int Amount, int Term, int Income, int Age, string Email, bool Accepted)
         {
-            var result = _services.WorkflowInvocationService.RunWorkflow(@"4.APIs\CreateLoanTestData.xaml", new Dictionary<string, object> { { "Amount", Amount }, { "Term", Term }, { "Income", Income }, { "Age", Age }, { "Email", Email }, { "Accepted", Accepted } }, default, default, default, GetAssemblyName());
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"3.Test Data Management\AI Generated\CreateLoanTestData.xaml", new Dictionary<string, object> { { "Amount", Amount }, { "Term", Term }, { "Income", Income }, { "Age", Age }, { "Email", Email }, { "Accepted", Accepted } }, default, default, default, GetAssemblyName());
         }
 
         /// <summary>

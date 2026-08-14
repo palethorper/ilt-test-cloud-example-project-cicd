@@ -15,6 +15,10 @@
     {
       "filePath": ".variations\\UiBankLoanDataRob_Amount = 2000.json",
       "dataVariationType": "Entity"
+    },
+    {
+      "filePath": ".variations\\APITestData_Sheet1_1.json",
+      "dataVariationType": "File"
     }
   ]
 }

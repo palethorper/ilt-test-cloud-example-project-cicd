@@ -4,6 +4,17 @@
         <name>Application Testing ILT.Core</name>
     </assembly>
     <members>
+        <member name="M:ApplicationTestingILT.WorkflowRunnerService.Approval_at_age_boundary_65(System.Boolean)">
+            <summary>
+            Invokes the Approval at age boundary 65.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ApplicationTestingILT.WorkflowRunnerService.Approval_at_age_boundary_65">
+            <summary>
+            Invokes the Approval at age boundary 65.xaml
+            </summary>
+        </member>
         <member name="M:ApplicationTestingILT.WorkflowRunnerService.Approval_for__10_000_minimal_income(System.String,System.String,System.String,System.String,System.String,System.Boolean)">
             <summary>
             Invokes the Approval for $10,000 minimal income.xaml
@@ -26,15 +37,26 @@
             Invokes the CoverageMergeHelperWorkflow.xaml
             </summary>
         </member>
+        <member name="M:ApplicationTestingILT.WorkflowRunnerService.CreateDataFabricData(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Invokes the 3.Test Data Management/AI Generated/CreateDataFabricData.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ApplicationTestingILT.WorkflowRunnerService.CreateDataFabricData(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Boolean)">
+            <summary>
+            Invokes the 3.Test Data Management/AI Generated/CreateDataFabricData.xaml
+            </summary>
+        </member>
         <member name="M:ApplicationTestingILT.WorkflowRunnerService.CreateLoanTestData(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Boolean,System.Boolean)">
             <summary>
-            Invokes the 4.APIs/CreateLoanTestData.xaml
+            Invokes the 3.Test Data Management/AI Generated/CreateLoanTestData.xaml
             </summary>
             <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
         </member>
         <member name="M:ApplicationTestingILT.WorkflowRunnerService.CreateLoanTestData(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Boolean)">
             <summary>
-            Invokes the 4.APIs/CreateLoanTestData.xaml
+            Invokes the 3.Test Data Management/AI Generated/CreateLoanTestData.xaml
             </summary>
         </member>
         <member name="M:ApplicationTestingILT.WorkflowRunnerService.Dispatcher(System.Boolean)">

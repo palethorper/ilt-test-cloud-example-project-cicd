@@ -20,7 +20,7 @@
   ],
   "schemaVersion": "4.0",
   "studioVersion": "23.10.0.0",
-  "projectVersion": "1.0.240332469",
+  "projectVersion": "1.0.240373749",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -72,7 +72,7 @@
         "fileName": "3.Test Data Management\\AI Generated\\Generate Loan Quotes.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "e70bf102-641d-4a13-9f7e-2933c8f4545d",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
@@ -102,11 +102,27 @@
       },
       {
         "editingStatus": "Publishable",
+        "testCaseId": "9c22c117-0f02-46d6-af90-2b34c5773eca",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Approval at age boundary 65.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
         "testCaseId": "8895aa53-162e-4fbd-84b2-31c8d307b4ad",
         "dataVariationFilePath": ".variations\\APITestData_Sheet1.json",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
-        "fileName": "4.APIs\\CreateLoanTestData.xaml"
+        "fileName": "3.Test Data Management\\AI Generated\\CreateLoanTestData.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d9e79f0e-2ee3-44f3-9311-0d862f35407e",
+        "dataVariationFilePath": ".variations\\APITestData_Sheet1_1.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "3.Test Data Management\\AI Generated\\CreateDataFabricData.xaml"
       }
     ],
     "saveToCloud": false
