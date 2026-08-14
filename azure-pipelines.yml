@@ -4,7 +4,26 @@ trigger:
 pool:
   vmImage: 'windows-latest' # Build agents must be Windows-based
 
+variables:
+  NUGET_PACKAGES: '$(Pipeline.Workspace)/.nuget/packages' # Restore location NuGet/uipcli will use and that we cache below
+
 steps:
+# 0a. Cache the downloaded UiPath CLI tool so it isn't re-fetched from the feed every run
+- task: Cache@2
+  displayName: 'Cache UiPath CLI'
+  inputs:
+    key: 'uipcli | "$(Agent.OS)" | "Windows.25.10.7"'
+    path: '$(Agent.ToolsDirectory)/uipcli'
+
+# 0b. Cache restored NuGet packages (activity dependencies) so UiPathPack doesn't re-download them every run
+- task: Cache@2
+  displayName: 'Cache NuGet packages'
+  inputs:
+    key: 'nuget | "$(Agent.OS)" | project.json'
+    restoreKeys: |
+      nuget | "$(Agent.OS)"
+    path: '$(NUGET_PACKAGES)'
+
 # 1. Ensure the UiPath CLI toolset is installed on the agent
 - task: UiPathInstallPlatform@6
   inputs:
