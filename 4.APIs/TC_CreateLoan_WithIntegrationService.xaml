@@ -80,7 +80,7 @@
       <AssemblyReference>System.Private.Uri</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="UiBank Create Loan - Data-Driven API Test" sap:VirtualizedContainerService.HintSize="1164,1122" sap2010:WorkflowViewState.IdRef="Sequence_Root">
+  <Sequence DisplayName="UiBank Create Loan - Data-Driven API Test" sap:VirtualizedContainerService.HintSize="1147,530.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_Root">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Int32" Name="amountInt" />
       <Variable x:TypeArguments="x:Int32" Name="termInt" />
@@ -96,7 +96,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Given - Prepare the current Excel data row" sap:VirtualizedContainerService.HintSize="486,57" sap2010:WorkflowViewState.IdRef="Sequence_Given">
+    <Sequence DisplayName="Given - Prepare the current Excel data row" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_Given">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -137,10 +137,11 @@
       </Assign>
       <ui:LogMessage DisplayName="Log current test data" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="Log_Input" Message="[String.Format(&quot;Create Loan input | Amount={0}, Term={1}, Income={2}, Age={3}, Email={4}, ExpectedAccepted={5}&quot;, amountInt, termInt, incomeInt, ageInt, Email, Accepted)]" />
     </Sequence>
-    <Sequence DisplayName="When - Create the loan quote through Integration Service" sap:VirtualizedContainerService.HintSize="486,994" sap2010:WorkflowViewState.IdRef="Sequence_When">
+    <Sequence DisplayName="When - Create the loan quote through Integration Service" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_When">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <ui:Comment DisplayName="Configure Insert Record here" sap:VirtualizedContainerService.HintSize="452,225" sap2010:WorkflowViewState.IdRef="Comment_InsertRecord" Text="Add the Integration Service 'Insert Record' activity immediately above the check below. Select the existing uibank-api connection and object QuotesNewquote. Map amountInt, termInt, incomeInt, ageInt, and Email. Store the Jit/Create response output in createLoanResponse (Object). The rest of the test is already wired." />
@@ -179,16 +180,22 @@
           </udam:RecordState>
         </uda:CreateEntityRecord.State>
       </uda:CreateEntityRecord>
-      <If Condition="[createLoanResponse Is Nothing]" DisplayName="Confirm Insert Record returned a response" sap:VirtualizedContainerService.HintSize="452,263" sap2010:WorkflowViewState.IdRef="If_ResponseMissing">
+      <If Condition="[createLoanResponse Is Nothing]" DisplayName="Confirm Insert Record returned a response" sap:VirtualizedContainerService.HintSize="452,333" sap2010:WorkflowViewState.IdRef="If_ResponseMissing">
         <If.Then>
           <Throw DisplayName="Integration Service activity still needs configuring" Exception="[New InvalidOperationException(&quot;Add and configure the uibank-api Insert Record activity in the When section, then assign its response output to createLoanResponse.&quot;)]" sap:VirtualizedContainerService.HintSize="450,91" sap2010:WorkflowViewState.IdRef="Throw_ResponseMissing" />
         </If.Then>
         <If.Else>
-          <Sequence DisplayName="Else" sap2010:WorkflowViewState.IdRef="Sequence_2" />
+          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </Sequence>
         </If.Else>
       </If>
     </Sequence>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,48" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="CommentOut_1">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="708,881" sap2010:WorkflowViewState.IdRef="Sequence_1">
           <sap:WorkflowViewStateService.ViewState>

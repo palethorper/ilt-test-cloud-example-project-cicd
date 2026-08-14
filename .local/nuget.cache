@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "rYYmM9VZ75I=",
+  "dgSpecHash": "pJoWjmrkgQk=",
   "success": true,
   "projectFilePath": "C:\\UiPath\\ABN-ILT\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\rob.palethorpe\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
+    "C:\\Users\\rob.palethorpe\\.nuget\\packages\\avalonedit\\6.1.3.50\\avalonedit.6.1.3.50.nupkg.sha512",
     "C:\\Users\\rob.palethorpe\\.nuget\\packages\\bitmiracle.docotic.pdf\\9.8.19020-dev\\bitmiracle.docotic.pdf.9.8.19020-dev.nupkg.sha512",
     "C:\\Users\\rob.palethorpe\\.nuget\\packages\\bitmiracle.docotic.pdf.htmltopdf\\9.8.19020-dev\\bitmiracle.docotic.pdf.htmltopdf.9.8.19020-dev.nupkg.sha512",
     "C:\\Users\\rob.palethorpe\\.nuget\\packages\\bitmiracle.libtiff.net\\2.4.649\\bitmiracle.libtiff.net.2.4.649.nupkg.sha512",
@@ -117,6 +118,7 @@
     "C:\\Users\\rob.palethorpe\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512",
     "C:\\Users\\rob.palethorpe\\.nuget\\packages\\radcommons.core\\2.0.1\\radcommons.core.2.0.1.nupkg.sha512",
     "C:\\Users\\rob.palethorpe\\.nuget\\packages\\rbush.signed\\4.0.0\\rbush.signed.4.0.0.nupkg.sha512",
+    "C:\\Users\\rob.palethorpe\\.nuget\\packages\\restsharp\\106.15.0\\restsharp.106.15.0.nupkg.sha512",
     "C:\\Users\\rob.palethorpe\\.nuget\\packages\\runtime.any.system.collections\\4.3.0\\runtime.any.system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\rob.palethorpe\\.nuget\\packages\\runtime.any.system.diagnostics.tools\\4.3.0\\runtime.any.system.diagnostics.tools.4.3.0.nupkg.sha512",
     "C:\\Users\\rob.palethorpe\\.nuget\\packages\\runtime.any.system.diagnostics.tracing\\4.3.0\\runtime.any.system.diagnostics.tracing.4.3.0.nupkg.sha512",
@@ -316,7 +318,9 @@
     "C:\\Users\\rob.palethorpe\\.nuget\\packages\\uipath.uiautomation.activities.runtime.design\\26.10.2\\uipath.uiautomation.activities.runtime.design.26.10.2.nupkg.sha512",
     "C:\\Users\\rob.palethorpe\\.nuget\\packages\\uipath.uiautomation.cli\\26.10.2\\uipath.uiautomation.cli.26.10.2.nupkg.sha512",
     "C:\\Users\\rob.palethorpe\\.nuget\\packages\\uipath.uiautomation.design.recoverypanel\\26.10.2\\uipath.uiautomation.design.recoverypanel.26.10.2.nupkg.sha512",
-    "C:\\Users\\rob.palethorpe\\.nuget\\packages\\uipath.vision\\4.1.0\\uipath.vision.4.1.0.nupkg.sha512"
+    "C:\\Users\\rob.palethorpe\\.nuget\\packages\\uipath.vision\\4.1.0\\uipath.vision.4.1.0.nupkg.sha512",
+    "C:\\Users\\rob.palethorpe\\.nuget\\packages\\uipath.webapi.activities\\2.5.2\\uipath.webapi.activities.2.5.2.nupkg.sha512",
+    "C:\\Users\\rob.palethorpe\\.nuget\\packages\\uipath.webapi.activities.runtime\\2.5.2\\uipath.webapi.activities.runtime.2.5.2.nupkg.sha512"
   ],
   "logs": []
 }

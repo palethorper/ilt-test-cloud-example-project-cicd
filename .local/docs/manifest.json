@@ -3,5 +3,6 @@
   "UiPath.Excel.Activities": "3.6.0-preview",
   "UiPath.OCR.Activities": "4.3.0",
   "UiPath.System.Activities": "26.6.3",
-  "UiPath.UIAutomation.Activities": "26.10.2"
+  "UiPath.UIAutomation.Activities": "26.10.2",
+  "UiPath.WebAPI.Activities": "2.5.2"
 }

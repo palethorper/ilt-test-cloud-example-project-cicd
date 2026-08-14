@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Net;
 using UiPath.Activities.System.Jobs.Coded;
 using UiPath.CodedWorkflows;
 using UiPath.Core;
@@ -19,6 +20,9 @@ using UiPath.Testing.Enums;
 using UiPath.UIAutomationNext.API.Contracts;
 using UiPath.UIAutomationNext.API.Models;
 using UiPath.UIAutomationNext.Enums;
+using UiPath.Web.Activities.API;
+using UiPath.Web.Activities.API.Models;
+using UiPath.Web.Activities.Http.Models;
 
 namespace ApplicationTestingILT
 {
@@ -33,7 +37,10 @@ namespace ApplicationTestingILT
                 typeof(UiPath.Core.Activities.API.ISystemService),
                 typeof(UiPath.Excel.Activities.API.IExcelService),
                 typeof(UiPath.Testing.API.ITestingService),
-                typeof(UiPath.UIAutomationNext.API.Contracts.IUiAutomationAppService)
+                typeof(UiPath.UIAutomationNext.API.Contracts.IUiAutomationAppService),
+                typeof(UiPath.Web.Activities.API.ICurlImportService),
+                typeof(UiPath.Web.Activities.API.IHttpService),
+                typeof(UiPath.Web.Activities.API.ISoapService)
             };
             _workflowRunnerServiceLazy = new Lazy<global::ApplicationTestingILT.WorkflowRunnerService>(() => new global::ApplicationTestingILT.WorkflowRunnerService(this.services));
 #pragma warning disable
@@ -44,7 +51,16 @@ namespace ApplicationTestingILT
         protected global::ApplicationTestingILT.WorkflowRunnerService workflows => _workflowRunnerServiceLazy.Value;
         protected ConnectionsManager connections => _connectionsManagerLazy.Value;
 #pragma warning disable
+        protected UiPath.Web.Activities.API.ICurlImportService curl { get => serviceContainer.Resolve<UiPath.Web.Activities.API.ICurlImportService>() ; }
+#pragma warning restore
+#pragma warning disable
         protected UiPath.Excel.Activities.API.IExcelService excel { get => serviceContainer.Resolve<UiPath.Excel.Activities.API.IExcelService>() ; }
+#pragma warning restore
+#pragma warning disable
+        protected UiPath.Web.Activities.API.IHttpService http { get => serviceContainer.Resolve<UiPath.Web.Activities.API.IHttpService>() ; }
+#pragma warning restore
+#pragma warning disable
+        protected UiPath.Web.Activities.API.ISoapService soap { get => serviceContainer.Resolve<UiPath.Web.Activities.API.ISoapService>() ; }
 #pragma warning restore
 #pragma warning disable
         protected UiPath.Core.Activities.API.ISystemService system { get => serviceContainer.Resolve<UiPath.Core.Activities.API.ISystemService>() ; }

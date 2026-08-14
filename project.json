@@ -9,9 +9,17 @@
     "UiPath.IntegrationService.Activities": "[1.30.0]",
     "UiPath.System.Activities": "[26.6.3]",
     "UiPath.Testing.Activities": "[25.10.2]",
-    "UiPath.UIAutomation.Activities": "[26.10.2]"
+    "UiPath.UIAutomation.Activities": "[26.10.2]",
+    "UiPath.WebAPI.Activities": "[2.5.2]"
   },
-  "webServices": [],
+  "webServices": [
+    {
+      "namespace": "uibankapiswaggerfile",
+      "serviceDocument": "Services\\uibankapiswaggerfile.json",
+      "webDocumentUri": "https://uibank-api.uipath.com/explorer/swagger.json",
+      "uniqueReference": "+z8NQkSAO5GRXugAiiozret4TjJdj8J1hBD79hPd810="
+    }
+  ],
   "entitiesStores": [
     {
       "serviceDocument": ".entities/EntitiesStore.json",
@@ -132,6 +140,35 @@
         "executionTemplateType": "Local",
         "executionTemplateInvokeIsolated": false,
         "fileName": "DEmo-ExecutionTemplate.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d2d83031-aa46-42d4-a689-8dd38d2479fd",
+        "dataVariationFilePath": ".variations\\UiBankLoanDataRob_Name.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "4.APIs\\ApplyForLoanAPI.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3abc9d3e-30de-4c50-86e8-ae9a739d3e1e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "4.APIs\\ApplyForLoan-ServiceConnection.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e60ed76d-b699-40ad-ad17-22a2b20463fb",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "4.APIs\\TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e596ff31-fd71-410b-9ae4-8507da14864b",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "4.APIs\\ApplyForLoanAPI-2.xaml"
       }
     ],
     "saveToCloud": false

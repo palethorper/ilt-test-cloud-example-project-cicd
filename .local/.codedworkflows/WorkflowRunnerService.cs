@@ -18,6 +18,57 @@ namespace ApplicationTestingILT
         }
 
         /// <summary>
+        /// Invokes the 4.APIs/ApplyForLoan-ServiceConnection.xaml
+        /// </summary>
+		/// <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        public void ApplyForLoan_ServiceConnection(System.Boolean isolated)
+        {
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"4.APIs\ApplyForLoan-ServiceConnection.xaml", new Dictionary<string, object> { }, default, isolated, default, GetAssemblyName());
+        }
+
+        /// <summary>
+        /// Invokes the 4.APIs/ApplyForLoan-ServiceConnection.xaml
+        /// </summary>
+        public void ApplyForLoan_ServiceConnection()
+        {
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"4.APIs\ApplyForLoan-ServiceConnection.xaml", new Dictionary<string, object> { }, default, default, default, GetAssemblyName());
+        }
+
+        /// <summary>
+        /// Invokes the 4.APIs/ApplyForLoanAPI.xaml
+        /// </summary>
+		/// <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        public void ApplyForLoanAPI(int Amount, int Term, int Income, int Age, string Email, string Accepted, Application_Testing_ILT.UiBankLoanDataRob uiBankLoanDataRob, System.Boolean isolated)
+        {
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"4.APIs\ApplyForLoanAPI.xaml", new Dictionary<string, object> { { "Amount", Amount }, { "Term", Term }, { "Income", Income }, { "Age", Age }, { "Email", Email }, { "Accepted", Accepted }, { "uiBankLoanDataRob", uiBankLoanDataRob } }, default, isolated, default, GetAssemblyName());
+        }
+
+        /// <summary>
+        /// Invokes the 4.APIs/ApplyForLoanAPI.xaml
+        /// </summary>
+        public void ApplyForLoanAPI(int Amount, int Term, int Income, int Age, string Email, string Accepted, Application_Testing_ILT.UiBankLoanDataRob uiBankLoanDataRob)
+        {
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"4.APIs\ApplyForLoanAPI.xaml", new Dictionary<string, object> { { "Amount", Amount }, { "Term", Term }, { "Income", Income }, { "Age", Age }, { "Email", Email }, { "Accepted", Accepted }, { "uiBankLoanDataRob", uiBankLoanDataRob } }, default, default, default, GetAssemblyName());
+        }
+
+        /// <summary>
+        /// Invokes the 4.APIs/ApplyForLoanAPI-2.xaml
+        /// </summary>
+		/// <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        public void ApplyForLoanAPI_2(System.Boolean isolated)
+        {
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"4.APIs\ApplyForLoanAPI-2.xaml", new Dictionary<string, object> { }, default, isolated, default, GetAssemblyName());
+        }
+
+        /// <summary>
+        /// Invokes the 4.APIs/ApplyForLoanAPI-2.xaml
+        /// </summary>
+        public void ApplyForLoanAPI_2()
+        {
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"4.APIs\ApplyForLoanAPI-2.xaml", new Dictionary<string, object> { }, default, default, default, GetAssemblyName());
+        }
+
+        /// <summary>
         /// Invokes the Approval at age boundary 65.xaml
         /// </summary>
 		/// <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
@@ -219,6 +270,23 @@ namespace ApplicationTestingILT
         public void Test_Data_Loan_Example(string EmailAddress, string LoanAmount, string LoanTerm, string Age, string YearlyIncome, Application_Testing_ILT.UiBankLoanDataRob uiBankLoanDataRob)
         {
             var result = _services.WorkflowInvocationService.RunWorkflow(@"Test Data Loan Example.xaml", new Dictionary<string, object> { { "EmailAddress", EmailAddress }, { "LoanAmount", LoanAmount }, { "LoanTerm", LoanTerm }, { "Age", Age }, { "YearlyIncome", YearlyIncome }, { "uiBankLoanDataRob", uiBankLoanDataRob } }, default, default, default, GetAssemblyName());
+        }
+
+        /// <summary>
+        /// Invokes the 4.APIs/TestCase.xaml
+        /// </summary>
+		/// <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        public void TestCase(System.Boolean isolated)
+        {
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"4.APIs\TestCase.xaml", new Dictionary<string, object> { }, default, isolated, default, GetAssemblyName());
+        }
+
+        /// <summary>
+        /// Invokes the 4.APIs/TestCase.xaml
+        /// </summary>
+        public void TestCase()
+        {
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"4.APIs\TestCase.xaml", new Dictionary<string, object> { }, default, default, default, GetAssemblyName());
         }
 
         /// <summary>

@@ -101,7 +101,7 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="CreateDataFabricData" sap:VirtualizedContainerService.HintSize="1141,686" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="CreateDataFabricData" sap:VirtualizedContainerService.HintSize="977,686" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="a:UiBankLoanDataRob" Name="createdRecord" />
     </Sequence.Variables>
