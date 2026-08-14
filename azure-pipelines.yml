@@ -42,7 +42,7 @@ steps:
   inputs:
     orchestratorConnection: 'UiPath-ANZ_PS_Staging'
     folderName: 'Shared'
-    packagePath: '$(Build.ArtifactStagingDirectory)'
+    packagesPath: '$(Build.ArtifactStagingDirectory)'
 
 # 4. Trigger and execute your Test Cases
 - task: UiPathTest@6
