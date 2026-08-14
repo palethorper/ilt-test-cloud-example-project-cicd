@@ -86,6 +86,23 @@ namespace ApplicationTestingILT
         }
 
         /// <summary>
+        /// Invokes the DEmo-ExecutionTemplate.xaml
+        /// </summary>
+		/// <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        public void DEmo_ExecutionTemplate(System.Boolean isolated)
+        {
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"DEmo-ExecutionTemplate.xaml", new Dictionary<string, object> { }, default, isolated, default, GetAssemblyName());
+        }
+
+        /// <summary>
+        /// Invokes the DEmo-ExecutionTemplate.xaml
+        /// </summary>
+        public void DEmo_ExecutionTemplate()
+        {
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"DEmo-ExecutionTemplate.xaml", new Dictionary<string, object> { }, default, default, default, GetAssemblyName());
+        }
+
+        /// <summary>
         /// Invokes the 3.Test Data Management/Test Data Queues/Dispatcher.xaml
         /// </summary>
 		/// <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
