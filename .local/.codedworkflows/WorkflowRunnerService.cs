@@ -55,17 +55,34 @@ namespace ApplicationTestingILT
         /// Invokes the 4.APIs/ApplyForLoanAPI-2.xaml
         /// </summary>
 		/// <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
-        public void ApplyForLoanAPI_2(System.Boolean isolated)
+        public void ApplyForLoanAPI_2(int Amount, int Term, int Income, int Age, string Email, System.Boolean isolated)
         {
-            var result = _services.WorkflowInvocationService.RunWorkflow(@"4.APIs\ApplyForLoanAPI-2.xaml", new Dictionary<string, object> { }, default, isolated, default, GetAssemblyName());
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"4.APIs\ApplyForLoanAPI-2.xaml", new Dictionary<string, object> { { "Amount", Amount }, { "Term", Term }, { "Income", Income }, { "Age", Age }, { "Email", Email } }, default, isolated, default, GetAssemblyName());
         }
 
         /// <summary>
         /// Invokes the 4.APIs/ApplyForLoanAPI-2.xaml
         /// </summary>
-        public void ApplyForLoanAPI_2()
+        public void ApplyForLoanAPI_2(int Amount, int Term, int Income, int Age, string Email)
         {
-            var result = _services.WorkflowInvocationService.RunWorkflow(@"4.APIs\ApplyForLoanAPI-2.xaml", new Dictionary<string, object> { }, default, default, default, GetAssemblyName());
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"4.APIs\ApplyForLoanAPI-2.xaml", new Dictionary<string, object> { { "Amount", Amount }, { "Term", Term }, { "Income", Income }, { "Age", Age }, { "Email", Email } }, default, default, default, GetAssemblyName());
+        }
+
+        /// <summary>
+        /// Invokes the Approval at $100,000 boundary.cs
+        /// </summary>
+		/// <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        public void Approval_at__100_000_boundary(System.Boolean isolated)
+        {
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"Approval at $100,000 boundary.cs", new Dictionary<string, object> { }, default, isolated, default, GetAssemblyName());
+        }
+
+        /// <summary>
+        /// Invokes the Approval at $100,000 boundary.cs
+        /// </summary>
+        public void Approval_at__100_000_boundary()
+        {
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"Approval at $100,000 boundary.cs", new Dictionary<string, object> { }, default, default, default, GetAssemblyName());
         }
 
         /// <summary>
@@ -202,6 +219,40 @@ namespace ApplicationTestingILT
         public void Generate_low_code_workflow()
         {
             var result = _services.WorkflowInvocationService.RunWorkflow(@"2.Autopilot for developers\Generate low code workflow.xaml", new Dictionary<string, object> { }, default, default, default, GetAssemblyName());
+        }
+
+        /// <summary>
+        /// Invokes the Handling.xaml
+        /// </summary>
+		/// <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        public void Handling(System.Boolean isolated)
+        {
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"Handling.xaml", new Dictionary<string, object> { }, default, isolated, default, GetAssemblyName());
+        }
+
+        /// <summary>
+        /// Invokes the Handling.xaml
+        /// </summary>
+        public void Handling()
+        {
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"Handling.xaml", new Dictionary<string, object> { }, default, default, default, GetAssemblyName());
+        }
+
+        /// <summary>
+        /// Invokes the 4.APIs/NewQuoteFromServiceDefinitionInStudio.xaml
+        /// </summary>
+		/// <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        public void NewQuoteFromServiceDefinitionInStudio(System.Boolean isolated)
+        {
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"4.APIs\NewQuoteFromServiceDefinitionInStudio.xaml", new Dictionary<string, object> { }, default, isolated, default, GetAssemblyName());
+        }
+
+        /// <summary>
+        /// Invokes the 4.APIs/NewQuoteFromServiceDefinitionInStudio.xaml
+        /// </summary>
+        public void NewQuoteFromServiceDefinitionInStudio()
+        {
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"4.APIs\NewQuoteFromServiceDefinitionInStudio.xaml", new Dictionary<string, object> { }, default, default, default, GetAssemblyName());
         }
 
         /// <summary>

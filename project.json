@@ -6,7 +6,7 @@
   "dependencies": {
     "UiPath.DataService.Activities": "[25.9.10]",
     "UiPath.Excel.Activities": "[3.6.0-preview]",
-    "UiPath.IntegrationService.Activities": "[1.30.0]",
+    "UiPath.IntegrationService.Activities": "[1.31.0-beta.20260813.5]",
     "UiPath.System.Activities": "[26.6.3]",
     "UiPath.Testing.Activities": "[25.10.2]",
     "UiPath.UIAutomation.Activities": "[26.10.2]",
@@ -18,6 +18,12 @@
       "serviceDocument": "Services\\uibankapiswaggerfile.json",
       "webDocumentUri": "https://uibank-api.uipath.com/explorer/swagger.json",
       "uniqueReference": "+z8NQkSAO5GRXugAiiozret4TjJdj8J1hBD79hPd810="
+    },
+    {
+      "namespace": "uibankapifromswagger2",
+      "serviceDocument": "Services\\uibankapifromswagger2.json",
+      "webDocumentUri": "https://uibank-api.uipath.com/explorer/swagger.json",
+      "uniqueReference": "PeZbzJyToCTReiP5eqphGo83qBSi9cFOlGIZUnt+GDc="
     }
   ],
   "entitiesStores": [
@@ -169,6 +175,26 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "4.APIs\\ApplyForLoanAPI-2.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "44fe3300-37fd-43c0-beff-7bf3b9712eca",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "4.APIs\\NewQuoteFromServiceDefinitionInStudio.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "6f634f59-415b-484d-80cc-4f96420c162b",
+        "testCaseType": "TestCase",
+        "fileName": "Approval at $100,000 boundary.cs"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "cec5e7a2-bb28-4579-965e-82865020d4f2",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Handling.xaml"
       }
     ],
     "saveToCloud": false
