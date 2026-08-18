@@ -30,7 +30,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "37e43578-ee5e-f111-8fcb-000d3a3ba410",
@@ -53,7 +56,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "38e43578-ee5e-f111-8fcb-000d3a3ba410",
@@ -76,7 +82,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "39e43578-ee5e-f111-8fcb-000d3a3ba410",
@@ -99,7 +108,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "3ae43578-ee5e-f111-8fcb-000d3a3ba410",
@@ -122,7 +134,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "3be43578-ee5e-f111-8fcb-000d3a3ba410",
@@ -145,7 +160,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "3ce43578-ee5e-f111-8fcb-000d3a3ba410",
@@ -168,7 +186,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "3de43578-ee5e-f111-8fcb-000d3a3ba410",
@@ -191,7 +212,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "3ee43578-ee5e-f111-8fcb-000d3a3ba410",
@@ -214,7 +238,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "3fe43578-ee5e-f111-8fcb-000d3a3ba410",
@@ -237,7 +264,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "40e43578-ee5e-f111-8fcb-000d3a3ba410",
@@ -260,7 +290,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "41e43578-ee5e-f111-8fcb-000d3a3ba410",
@@ -283,7 +316,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "966e886d-0004-4594-97b7-27a4862ac1e3",
@@ -306,7 +342,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "5a919873-f022-4907-bda8-5dcfa664bf61",
@@ -333,7 +372,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Relationship",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "d8420a47-354c-4109-9a7c-795bb1563259",
@@ -360,7 +402,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Relationship",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "6ee50de4-9569-4776-be24-e5248968aa13",
@@ -383,7 +428,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "2e722d0e-7589-4997-8bad-f6e8dcd7bb76",
@@ -406,7 +454,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         }
       ],
       "RecordCount": 1,
@@ -446,7 +497,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Relationship",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "9261a69c-4c89-43f6-8c45-0d330cdf88f5",
@@ -469,7 +523,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "e8a4d97f-8ac1-4730-84ce-1b970cb15ef2",
@@ -492,7 +549,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "212e52c8-1197-f111-9b33-6045bdd6658d",
@@ -515,7 +575,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "cd2d6eae-a3e0-426e-af42-64dd2c265267",
@@ -538,7 +601,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "9c4175cc-92cb-4094-8160-69635b7aaf6d",
@@ -565,7 +631,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Relationship",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "cd32ccc3-3da9-437b-907c-7b116a1aede8",
@@ -588,7 +657,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "348fc0a4-b2a5-4a2d-be0d-c0d4c6a10c42",
@@ -611,7 +683,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "1fad6615-6dba-41d3-8396-c9cb0a8cab06",
@@ -634,7 +709,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "4500f15e-44b9-4680-846d-ccf6a987502d",
@@ -657,7 +735,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "c0bd0259-83bb-4ca6-80b0-e9f5d4efad5a",
@@ -680,7 +761,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "bc7ae6f7-403a-44be-969b-f448b7b91c83",
@@ -703,7 +787,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         }
       ],
       "RecordCount": 8,
@@ -743,7 +830,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Relationship",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "9410e41c-458b-f111-b338-6045bdf0bf66",
@@ -766,7 +856,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "9510e41c-458b-f111-b338-6045bdf0bf66",
@@ -789,7 +882,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "9610e41c-458b-f111-b338-6045bdf0bf66",
@@ -812,7 +908,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "9710e41c-458b-f111-b338-6045bdf0bf66",
@@ -835,7 +934,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "9810e41c-458b-f111-b338-6045bdf0bf66",
@@ -858,7 +960,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "9910e41c-458b-f111-b338-6045bdf0bf66",
@@ -881,7 +986,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "b7c721ab-3e7d-47e9-987d-808cd585b4c1",
@@ -908,7 +1016,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Relationship",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "d24b4a4e-9ce8-432c-a646-a5516b46be9c",
@@ -931,7 +1042,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "4bd6e1b7-be77-4c99-ab9f-cd0da3b09718",
@@ -954,7 +1068,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "2ec8a1c6-f159-4660-a565-ce46f53204f9",
@@ -977,7 +1094,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         }
       ],
       "RecordCount": 11,
@@ -1013,7 +1133,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "bab7979b-cf3e-4718-9f2a-4876bae5ba3a",
@@ -1036,7 +1159,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "6fa40e24-eea1-45f0-a618-50e0334ffb53",
@@ -1059,7 +1185,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "cd4a8e1a-56bc-4b87-a4f4-8a36745f5938",
@@ -1082,7 +1211,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "0044b974-5277-4204-bfba-aa6696dacf3a",
@@ -1105,7 +1237,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "e7f917c8-a45a-49a9-bdb6-ae909c8bea98",
@@ -1128,7 +1263,10 @@
           "ReferenceType": "ManyToOne",
           "FieldDisplayType": "Basic",
           "ReferenceChoiceSet": null,
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         },
         {
           "Id": "04cc563c-bfd1-4c6f-a7c0-f518819e4d6f",
@@ -1155,7 +1293,10 @@
             "Id": "6a6fb884-535e-f111-8fcb-000d3a3ba410",
             "FolderId": "00000000-0000-0000-0000-000000000000"
           },
-          "IsAttachment": false
+          "ReferenceField": null,
+          "IsAttachment": false,
+          "IsExternalField": false,
+          "ExternalFieldMappingDetail": null
         }
       ],
       "RecordCount": 6,
@@ -1163,6 +1304,7 @@
       "EntityType": "SystemEntity"
     }
   ],
+  "AssemblyName": null,
   "Namespace": "Application_Testing_ILT",
   "EntitiesJson": "{\"entities\":[{\"name\":\"UiBankApiTestData\",\"displayName\":\"UiBank API Test Data\",\"entityTypeId\":0,\"entityType\":\"Entity\",\"description\":\"Data Service test data for UiBank API automation scenarios.\",\"folderId\":\"00000000-0000-0000-0000-000000000000\",\"fields\":[{\"id\":\"36e43578-ee5e-f111-8fcb-000d3a3ba410\",\"name\":\"TestCaseId\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"Test Case Id\",\"description\":\"\",\"createTime\":\"2026-06-03T01:49:35.943Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-06-03T01:49:35.943Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"37e43578-ee5e-f111-8fcb-000d3a3ba410\",\"name\":\"RequirementId\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"Requirement Id\",\"description\":\"\",\"createTime\":\"2026-06-03T01:49:36.15Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-06-03T01:49:36.15Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"38e43578-ee5e-f111-8fcb-000d3a3ba410\",\"name\":\"ScenarioName\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"Scenario Name\",\"description\":\"\",\"createTime\":\"2026-06-03T01:49:36.36Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-06-03T01:49:36.36Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"39e43578-ee5e-f111-8fcb-000d3a3ba410\",\"name\":\"Priority\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"Priority\",\"description\":\"\",\"createTime\":\"2026-06-03T01:49:36.573Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-06-03T01:49:36.573Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"3ae43578-ee5e-f111-8fcb-000d3a3ba410\",\"name\":\"Tags\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"Tags\",\"description\":\"\",\"createTime\":\"2026-06-03T01:49:36.79Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-06-03T01:49:36.79Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"3be43578-ee5e-f111-8fcb-000d3a3ba410\",\"name\":\"IsActive\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"BIT\",\"lengthLimit\":100},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"Is Active\",\"description\":\"\",\"createTime\":\"2026-06-03T01:49:36.997Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-06-03T01:49:36.997Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"3ce43578-ee5e-f111-8fcb-000d3a3ba410\",\"name\":\"Endpoint\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"Endpoint\",\"description\":\"\",\"createTime\":\"2026-06-03T01:49:37.207Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-06-03T01:49:37.207Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"3de43578-ee5e-f111-8fcb-000d3a3ba410\",\"name\":\"TimeoutSeconds\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"INT\",\"maxValue\":1000000000000.0,\"minValue\":-1000000000000.0},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"Timeout Seconds\",\"description\":\"\",\"createTime\":\"2026-06-03T01:49:37.417Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-06-03T01:49:37.417Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"3ee43578-ee5e-f111-8fcb-000d3a3ba410\",\"name\":\"ExpectedStatusCode\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"INT\",\"maxValue\":1000000000000.0,\"minValue\":-1000000000000.0},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"Expected Status Code\",\"description\":\"\",\"createTime\":\"2026-06-03T01:49:37.623Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-06-03T01:49:37.623Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"3fe43578-ee5e-f111-8fcb-000d3a3ba410\",\"name\":\"ExpectedBodyFormat\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"Expected Body Format\",\"description\":\"\",\"createTime\":\"2026-06-03T01:49:37.833Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-06-03T01:49:37.833Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"40e43578-ee5e-f111-8fcb-000d3a3ba410\",\"name\":\"ExpectedContentType\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"Expected Content Type\",\"description\":\"\",\"createTime\":\"2026-06-03T01:49:38.043Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-06-03T01:49:38.043Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"41e43578-ee5e-f111-8fcb-000d3a3ba410\",\"name\":\"CleanupKey\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"Cleanup Key\",\"description\":\"\",\"createTime\":\"2026-06-03T01:49:38.253Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-06-03T01:49:38.253Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"966e886d-0004-4594-97b7-27a4862ac1e3\",\"name\":\"CreateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":true,\"isEncrypted\":false,\"displayName\":\"CreateTime\",\"description\":\"System built-in field\",\"createTime\":\"2026-06-03T01:49:34.937Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-06-03T01:49:34.937Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":true,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"5a919873-f022-4907-bda8-5dcfa664bf61\",\"name\":\"UpdatedBy\",\"isPrimaryKey\":false,\"isForeignKey\":true,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceName\":\"fk_UpdatedBy_9f906866-63b0-40ab-b52f-5bcf9c132c99\",\"referenceEntity\":{\"name\":\"SystemUser\",\"displayName\":\"System Users\",\"entityTypeId\":3,\"entityType\":\"SystemEntity\",\"folderId\":\"00000000-0000-0000-0000-000000000000\",\"isRbacEnabled\":false,\"isInsightsEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"716fb884-535e-f111-8fcb-000d3a3ba410\"},\"referenceField\":{\"id\":\"6fa40e24-eea1-45f0-a618-50e0334ffb53\",\"definition\":{\"id\":\"6fa40e24-eea1-45f0-a618-50e0334ffb53\",\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"Name\",\"createTime\":\"2026-06-02T07:20:25.597Z\",\"updateTime\":\"2026-06-02T07:20:25.597Z\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"UpdatedBy\",\"description\":\"System built-in field\",\"createTime\":\"2026-06-03T01:49:34.937Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-06-03T01:49:34.937Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":true,\"fieldDisplayType\":\"Relationship\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"d8420a47-354c-4109-9a7c-795bb1563259\",\"name\":\"CreatedBy\",\"isPrimaryKey\":false,\"isForeignKey\":true,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceName\":\"fk_CreatedBy_9024800e-7952-4a4e-b0d7-7a11e2e56fff\",\"referenceEntity\":{\"name\":\"SystemUser\",\"displayName\":\"System Users\",\"entityTypeId\":3,\"entityType\":\"SystemEntity\",\"folderId\":\"00000000-0000-0000-0000-000000000000\",\"isRbacEnabled\":false,\"isInsightsEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"716fb884-535e-f111-8fcb-000d3a3ba410\"},\"referenceField\":{\"id\":\"6fa40e24-eea1-45f0-a618-50e0334ffb53\",\"definition\":{\"id\":\"6fa40e24-eea1-45f0-a618-50e0334ffb53\",\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"Name\",\"createTime\":\"2026-06-02T07:20:25.597Z\",\"updateTime\":\"2026-06-02T07:20:25.597Z\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":true,\"isEncrypted\":false,\"displayName\":\"CreatedBy\",\"description\":\"System built-in field\",\"createTime\":\"2026-06-03T01:49:34.937Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-06-03T01:49:34.937Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":true,\"fieldDisplayType\":\"Relationship\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"6ee50de4-9569-4776-be24-e5248968aa13\",\"name\":\"UpdateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"UpdateTime\",\"description\":\"System built-in field\",\"createTime\":\"2026-06-03T01:49:34.937Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-06-03T01:49:34.937Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":true,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"2e722d0e-7589-4997-8bad-f6e8dcd7bb76\",\"name\":\"Id\",\"isPrimaryKey\":true,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":true,\"isEncrypted\":false,\"displayName\":\"Id\",\"description\":\"System built-in field\",\"createTime\":\"2026-06-03T01:49:34.937Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-06-03T01:49:34.937Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":true,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}],\"recordCount\":1,\"storageSizeInMB\":0.070312,\"usedStorageSizeInMB\":0.015625,\"isRbacEnabled\":false,\"isInsightsEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"2ce43578-ee5e-f111-8fcb-000d3a3ba410\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"createTime\":\"2026-06-03T01:49:34.72Z\",\"updateTime\":\"2026-06-03T01:49:38.253Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\"},{\"name\":\"UiBankLoanDataRob\",\"displayName\":\"UiBankLoanDataRob\",\"entityTypeId\":0,\"entityType\":\"Entity\",\"description\":\"\",\"folderId\":\"00000000-0000-0000-0000-000000000000\",\"fields\":[{\"id\":\"dfc62e99-fa4f-48cd-98b1-004104d8f1ea\",\"name\":\"UpdatedBy\",\"isPrimaryKey\":false,\"isForeignKey\":true,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceName\":\"fk_UpdatedBy_fca0cbce-1c1d-4fec-a857-c760f52dc6f1\",\"referenceEntity\":{\"name\":\"SystemUser\",\"displayName\":\"System Users\",\"entityTypeId\":3,\"entityType\":\"SystemEntity\",\"folderId\":\"00000000-0000-0000-0000-000000000000\",\"isRbacEnabled\":false,\"isInsightsEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"716fb884-535e-f111-8fcb-000d3a3ba410\"},\"referenceField\":{\"id\":\"6fa40e24-eea1-45f0-a618-50e0334ffb53\",\"definition\":{\"id\":\"6fa40e24-eea1-45f0-a618-50e0334ffb53\",\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"Name\",\"createTime\":\"2026-06-02T07:20:25.597Z\",\"updateTime\":\"2026-06-02T07:20:25.597Z\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"UpdatedBy\",\"description\":\"System built-in field\",\"createTime\":\"2026-08-13T11:01:55.443Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-08-13T11:01:55.443Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":true,\"fieldDisplayType\":\"Relationship\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"9261a69c-4c89-43f6-8c45-0d330cdf88f5\",\"name\":\"Age\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DECIMAL\",\"lengthLimit\":1000,\"maxValue\":1000000000000.0,\"minValue\":-1000000000000.0,\"decimalPrecision\":2},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"Age\",\"description\":\"\",\"createTime\":\"2026-08-13T11:01:55.57Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-08-13T11:01:55.57Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"e8a4d97f-8ac1-4730-84ce-1b970cb15ef2\",\"name\":\"CreateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":true,\"isEncrypted\":false,\"displayName\":\"CreateTime\",\"description\":\"System built-in field\",\"createTime\":\"2026-08-13T11:01:55.443Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-08-13T11:01:55.443Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":true,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"212e52c8-1197-f111-9b33-6045bdd6658d\",\"name\":\"LoanRateResult\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DECIMAL\",\"lengthLimit\":1000,\"maxValue\":1000000000000.0,\"minValue\":-1000000000000.0,\"decimalPrecision\":2},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"LoanRateResult\",\"description\":\"\",\"createTime\":\"2026-08-13T12:23:26.623Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-08-13T12:23:26.623Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"cd2d6eae-a3e0-426e-af42-64dd2c265267\",\"name\":\"ExpectedRate\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DECIMAL\",\"lengthLimit\":1000,\"maxValue\":1000000000000.0,\"minValue\":-1000000000000.0,\"decimalPrecision\":2},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"ExpectedRate\",\"createTime\":\"2026-08-13T11:01:55.57Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-08-13T14:11:18.41Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"9c4175cc-92cb-4094-8160-69635b7aaf6d\",\"name\":\"CreatedBy\",\"isPrimaryKey\":false,\"isForeignKey\":true,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceName\":\"fk_CreatedBy_f00e3800-79ed-4121-9e6f-9f77c154b3a0\",\"referenceEntity\":{\"name\":\"SystemUser\",\"displayName\":\"System Users\",\"entityTypeId\":3,\"entityType\":\"SystemEntity\",\"folderId\":\"00000000-0000-0000-0000-000000000000\",\"isRbacEnabled\":false,\"isInsightsEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"716fb884-535e-f111-8fcb-000d3a3ba410\"},\"referenceField\":{\"id\":\"6fa40e24-eea1-45f0-a618-50e0334ffb53\",\"definition\":{\"id\":\"6fa40e24-eea1-45f0-a618-50e0334ffb53\",\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"Name\",\"createTime\":\"2026-06-02T07:20:25.597Z\",\"updateTime\":\"2026-06-02T07:20:25.597Z\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":true,\"isEncrypted\":false,\"displayName\":\"CreatedBy\",\"description\":\"System built-in field\",\"createTime\":\"2026-08-13T11:01:55.443Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-08-13T11:01:55.443Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":true,\"fieldDisplayType\":\"Relationship\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"cd32ccc3-3da9-437b-907c-7b116a1aede8\",\"name\":\"YearlyIncome\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DECIMAL\",\"lengthLimit\":1000,\"maxValue\":1000000000000.0,\"minValue\":-1000000000000.0,\"decimalPrecision\":2},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"YearlyIncome\",\"description\":\"\",\"createTime\":\"2026-08-13T11:01:55.57Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-08-13T11:01:55.57Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"348fc0a4-b2a5-4a2d-be0d-c0d4c6a10c42\",\"name\":\"UpdateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"UpdateTime\",\"description\":\"System built-in field\",\"createTime\":\"2026-08-13T11:01:55.443Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-08-13T11:01:55.443Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":true,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"1fad6615-6dba-41d3-8396-c9cb0a8cab06\",\"name\":\"EmailId\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"EmailId\",\"description\":\"\",\"createTime\":\"2026-08-13T11:01:55.57Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-08-13T11:01:55.57Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"4500f15e-44b9-4680-846d-ccf6a987502d\",\"name\":\"LoanAmount\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DECIMAL\",\"lengthLimit\":1000,\"maxValue\":1000000000000.0,\"minValue\":-1000000000000.0,\"decimalPrecision\":2},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"LoanAmount\",\"description\":\"\",\"createTime\":\"2026-08-13T11:01:55.57Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-08-13T11:01:55.57Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"c0bd0259-83bb-4ca6-80b0-e9f5d4efad5a\",\"name\":\"Id\",\"isPrimaryKey\":true,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":true,\"isEncrypted\":false,\"displayName\":\"Id\",\"description\":\"System built-in field\",\"createTime\":\"2026-08-13T11:01:55.443Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-08-13T11:01:55.443Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":true,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"bc7ae6f7-403a-44be-969b-f448b7b91c83\",\"name\":\"LoanTerm\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DECIMAL\",\"lengthLimit\":1000,\"maxValue\":1000000000000.0,\"minValue\":-1000000000000.0,\"decimalPrecision\":2},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"LoanTerm\",\"description\":\"\",\"createTime\":\"2026-08-13T11:01:55.57Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-08-13T11:01:55.57Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}],\"recordCount\":8,\"storageSizeInMB\":0.140625,\"usedStorageSizeInMB\":0.03125,\"isRbacEnabled\":false,\"isInsightsEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"d6c5e964-0697-f111-9b33-6045bdd6658d\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"createTime\":\"2026-08-13T11:01:55.38Z\",\"updateTime\":\"2026-08-13T14:11:18.41Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\"},{\"name\":\"LoanAccount\",\"displayName\":\"Loan Account\",\"entityTypeId\":0,\"entityType\":\"Entity\",\"description\":\"Loan application test data migrated from the UiBank test data queue schema.\",\"folderId\":\"00000000-0000-0000-0000-000000000000\",\"fields\":[{\"id\":\"c68a402c-3ded-48cc-882c-26544a48d1a7\",\"name\":\"UpdatedBy\",\"isPrimaryKey\":false,\"isForeignKey\":true,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceName\":\"fk_UpdatedBy_3bf61398-ff97-4de2-b5a1-489cb150ddcb\",\"referenceEntity\":{\"name\":\"SystemUser\",\"displayName\":\"System Users\",\"entityTypeId\":3,\"entityType\":\"SystemEntity\",\"folderId\":\"00000000-0000-0000-0000-000000000000\",\"isRbacEnabled\":false,\"isInsightsEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"716fb884-535e-f111-8fcb-000d3a3ba410\"},\"referenceField\":{\"id\":\"6fa40e24-eea1-45f0-a618-50e0334ffb53\",\"definition\":{\"id\":\"6fa40e24-eea1-45f0-a618-50e0334ffb53\",\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"Name\",\"createTime\":\"2026-06-02T07:20:25.597Z\",\"updateTime\":\"2026-06-02T07:20:25.597Z\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"UpdatedBy\",\"description\":\"System built-in field\",\"createTime\":\"2026-07-29T12:00:38.923Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-07-29T12:00:38.923Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":true,\"fieldDisplayType\":\"Relationship\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"9410e41c-458b-f111-b338-6045bdf0bf66\",\"name\":\"emailId\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":200},\"isRequired\":true,\"isEncrypted\":false,\"displayName\":\"Email ID\",\"description\":\"Email address for the applicant\",\"createTime\":\"2026-07-29T12:00:39.183Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-07-29T12:00:39.183Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"9510e41c-458b-f111-b338-6045bdf0bf66\",\"name\":\"loanAmount\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DECIMAL\",\"lengthLimit\":1000,\"maxValue\":1000000000000.0,\"minValue\":0.0,\"decimalPrecision\":2},\"isRequired\":true,\"isEncrypted\":false,\"displayName\":\"Loan Amount\",\"description\":\"Requested loan amount\",\"createTime\":\"2026-07-29T12:00:39.21Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-07-29T12:00:39.21Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"9610e41c-458b-f111-b338-6045bdf0bf66\",\"name\":\"yearlyIncome\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DECIMAL\",\"lengthLimit\":1000,\"maxValue\":1000000000000.0,\"minValue\":0.0,\"decimalPrecision\":2},\"isRequired\":true,\"isEncrypted\":false,\"displayName\":\"Yearly Income\",\"description\":\"Applicant yearly income\",\"createTime\":\"2026-07-29T12:00:39.223Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-07-29T12:00:39.223Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"9710e41c-458b-f111-b338-6045bdf0bf66\",\"name\":\"loanTerm\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":20},\"isRequired\":true,\"isEncrypted\":false,\"displayName\":\"Loan Term\",\"description\":\"Loan term in years\",\"createTime\":\"2026-07-29T12:00:39.247Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-07-29T12:00:39.247Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"9810e41c-458b-f111-b338-6045bdf0bf66\",\"name\":\"age\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":20},\"isRequired\":true,\"isEncrypted\":false,\"displayName\":\"Age\",\"description\":\"Applicant age\",\"createTime\":\"2026-07-29T12:00:39.263Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-07-29T12:00:39.263Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"9910e41c-458b-f111-b338-6045bdf0bf66\",\"name\":\"loanStatus\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":50},\"isRequired\":true,\"isEncrypted\":false,\"displayName\":\"Loan Status\",\"description\":\"Expected loan decision\",\"createTime\":\"2026-07-29T12:00:39.273Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-07-29T12:00:39.273Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"b7c721ab-3e7d-47e9-987d-808cd585b4c1\",\"name\":\"CreatedBy\",\"isPrimaryKey\":false,\"isForeignKey\":true,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceName\":\"fk_CreatedBy_f7f0feb4-497e-484b-bbe6-1561ac0fd7c4\",\"referenceEntity\":{\"name\":\"SystemUser\",\"displayName\":\"System Users\",\"entityTypeId\":3,\"entityType\":\"SystemEntity\",\"folderId\":\"00000000-0000-0000-0000-000000000000\",\"isRbacEnabled\":false,\"isInsightsEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"716fb884-535e-f111-8fcb-000d3a3ba410\"},\"referenceField\":{\"id\":\"6fa40e24-eea1-45f0-a618-50e0334ffb53\",\"definition\":{\"id\":\"6fa40e24-eea1-45f0-a618-50e0334ffb53\",\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"Name\",\"createTime\":\"2026-06-02T07:20:25.597Z\",\"updateTime\":\"2026-06-02T07:20:25.597Z\",\"isSystemField\":false,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":true,\"isEncrypted\":false,\"displayName\":\"CreatedBy\",\"description\":\"System built-in field\",\"createTime\":\"2026-07-29T12:00:38.923Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-07-29T12:00:38.923Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":true,\"fieldDisplayType\":\"Relationship\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"d24b4a4e-9ce8-432c-a646-a5516b46be9c\",\"name\":\"CreateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":true,\"isEncrypted\":false,\"displayName\":\"CreateTime\",\"description\":\"System built-in field\",\"createTime\":\"2026-07-29T12:00:38.923Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-07-29T12:00:38.923Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":true,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"4bd6e1b7-be77-4c99-ab9f-cd0da3b09718\",\"name\":\"UpdateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"UpdateTime\",\"description\":\"System built-in field\",\"createTime\":\"2026-07-29T12:00:38.923Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-07-29T12:00:38.923Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":true,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"2ec8a1c6-f159-4660-a565-ce46f53204f9\",\"name\":\"Id\",\"isPrimaryKey\":true,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":true,\"isEncrypted\":false,\"displayName\":\"Id\",\"description\":\"System built-in field\",\"createTime\":\"2026-07-29T12:00:38.923Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-07-29T12:00:38.923Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":true,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}],\"recordCount\":11,\"storageSizeInMB\":0.140625,\"usedStorageSizeInMB\":0.03125,\"isRbacEnabled\":false,\"isInsightsEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"8a10e41c-458b-f111-b338-6045bdf0bf66\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"createTime\":\"2026-07-29T12:00:38.89Z\",\"updateTime\":\"2026-07-29T12:00:39.277Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\"},{\"name\":\"SystemUser\",\"displayName\":\"System Users\",\"entityTypeId\":3,\"entityType\":\"SystemEntity\",\"description\":\"Contains Automation Cloud users and groups that have ever had roles assigned, or accessed Data Service\",\"folderId\":\"00000000-0000-0000-0000-000000000000\",\"fields\":[{\"id\":\"c287d072-7554-4789-afe6-439be7e1ec18\",\"name\":\"CreateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":true,\"isEncrypted\":false,\"displayName\":\"CreateTime\",\"description\":\"System built-in field\",\"createTime\":\"2026-06-02T07:20:25.597Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-06-02T07:20:25.597Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":true,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"bab7979b-cf3e-4718-9f2a-4876bae5ba3a\",\"name\":\"UpdateTime\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"DATETIMEOFFSET\"},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"UpdateTime\",\"description\":\"System built-in field\",\"createTime\":\"2026-06-02T07:20:25.597Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-06-02T07:20:25.597Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":true,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"6fa40e24-eea1-45f0-a618-50e0334ffb53\",\"name\":\"Name\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":true,\"isEncrypted\":false,\"displayName\":\"Name\",\"description\":\"System built-in field\",\"createTime\":\"2026-06-02T07:20:25.597Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-06-02T07:20:25.597Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":true,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"cd4a8e1a-56bc-4b87-a4f4-8a36745f5938\",\"name\":\"Id\",\"isPrimaryKey\":true,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"UNIQUEIDENTIFIER\"},\"isRequired\":true,\"isEncrypted\":false,\"displayName\":\"Id\",\"description\":\"System built-in field\",\"createTime\":\"2026-06-02T07:20:25.597Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-06-02T07:20:25.597Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":true,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"0044b974-5277-4204-bfba-aa6696dacf3a\",\"name\":\"Email\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"NVARCHAR\",\"lengthLimit\":512},\"isRequired\":false,\"isEncrypted\":false,\"displayName\":\"E-mail\",\"description\":\"System built-in field\",\"createTime\":\"2026-06-02T07:20:25.597Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-06-02T07:20:25.597Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":true,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"e7f917c8-a45a-49a9-bdb6-ae909c8bea98\",\"name\":\"IsActive\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"BIT\"},\"isRequired\":true,\"isEncrypted\":false,\"displayName\":\"IsActive\",\"description\":\"System built-in field\",\"createTime\":\"2026-06-02T07:20:25.597Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-06-02T07:20:25.597Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":true,\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false},{\"id\":\"04cc563c-bfd1-4c6f-a7c0-f518819e4d6f\",\"name\":\"Type\",\"isPrimaryKey\":false,\"isForeignKey\":false,\"isExternalField\":false,\"isHiddenField\":false,\"fieldCategoryId\":0,\"isUnique\":false,\"referenceChoiceSet\":{\"name\":\"UserType\",\"entityTypeId\":0,\"entityType\":\"Entity\",\"folderId\":\"00000000-0000-0000-0000-000000000000\",\"isRbacEnabled\":false,\"isInsightsEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"6a6fb884-535e-f111-8fcb-000d3a3ba410\"},\"referenceType\":\"ManyToOne\",\"sqlType\":{\"name\":\"INT\",\"maxValue\":9007199254740991.0,\"minValue\":-9007199254740991.0},\"isRequired\":true,\"isEncrypted\":false,\"displayName\":\"Type\",\"description\":\"System built-in field\",\"createTime\":\"2026-06-02T07:20:25.597Z\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"updateTime\":\"2026-06-02T07:20:25.597Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isSystemField\":true,\"fieldDisplayType\":\"ChoiceSetSingle\",\"choiceSetId\":\"6a6fb884-535e-f111-8fcb-000d3a3ba410\",\"isAttachment\":false,\"isRbacEnabled\":false,\"isModelReserved\":false}],\"recordCount\":6,\"storageSizeInMB\":0.070312,\"usedStorageSizeInMB\":0.015625,\"isRbacEnabled\":false,\"isInsightsEnabled\":false,\"invalidIdentifiers\":[],\"isModelReserved\":false,\"id\":\"716fb884-535e-f111-8fcb-000d3a3ba410\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"createTime\":\"2026-06-02T07:20:25.39Z\",\"updateTime\":\"2026-06-02T07:20:25.39Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\"}],\"choicesets\":[{\"id\":\"6a6fb884-535e-f111-8fcb-000d3a3ba410\",\"name\":\"UserType\",\"displayName\":\"User Type\",\"description\":\"Denotes the type of user record in the System User entity\",\"folderId\":\"00000000-0000-0000-0000-000000000000\",\"createdBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"createTime\":\"2026-06-02T07:20:23.717Z\",\"updateTime\":\"2026-06-02T07:20:23.717Z\",\"updatedBy\":\"8835fdcd-77a7-4e3e-a99a-838382fcc049\",\"isModelReserved\":false,\"data\":[{\"DisplayName\":\"Group\",\"Name\":\"Group\",\"NumberId\":1},{\"DisplayName\":\"User\",\"Name\":\"User\",\"NumberId\":0},{\"DisplayName\":\"Application\",\"Name\":\"Application\",\"NumberId\":3},{\"DisplayName\":\"Robot\",\"Name\":\"Robot\",\"NumberId\":2}]}]}",
   "SelectedEntitiesNames": [

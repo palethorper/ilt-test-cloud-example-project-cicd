@@ -34,7 +34,7 @@
   ],
   "schemaVersion": "4.0",
   "studioVersion": "23.10.0.0",
-  "projectVersion": "1.0.240374987",
+  "projectVersion": "1.0.240711294",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -195,6 +195,13 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Handling.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "0052057d-6bfc-4a0a-b6a7-6b0e97e65e87",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "4.APIs\\GetPublicIpAddress.xaml"
       }
     ],
     "saveToCloud": false

@@ -21,7 +21,7 @@ using UiPath.UIAutomationNext.API.Models;
 using UiPath.UIAutomationNext.Enums;
 using ApplicationTestingILT;
 
-namespace ApplicationTestingILT
+namespace Application.Testing.ILT
 {
     [System.ComponentModel.Browsable(false)]
     public class Approval__50_000_at_5_year_boundaryActivity : System.Activities.Activity

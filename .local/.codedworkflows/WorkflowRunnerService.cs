@@ -69,23 +69,6 @@ namespace ApplicationTestingILT
         }
 
         /// <summary>
-        /// Invokes the Approval at $100,000 boundary.cs
-        /// </summary>
-		/// <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
-        public void Approval_at__100_000_boundary(System.Boolean isolated)
-        {
-            var result = _services.WorkflowInvocationService.RunWorkflow(@"Approval at $100,000 boundary.cs", new Dictionary<string, object> { }, default, isolated, default, GetAssemblyName());
-        }
-
-        /// <summary>
-        /// Invokes the Approval at $100,000 boundary.cs
-        /// </summary>
-        public void Approval_at__100_000_boundary()
-        {
-            var result = _services.WorkflowInvocationService.RunWorkflow(@"Approval at $100,000 boundary.cs", new Dictionary<string, object> { }, default, default, default, GetAssemblyName());
-        }
-
-        /// <summary>
         /// Invokes the Approval at age boundary 65.xaml
         /// </summary>
 		/// <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
@@ -219,6 +202,23 @@ namespace ApplicationTestingILT
         public void Generate_low_code_workflow()
         {
             var result = _services.WorkflowInvocationService.RunWorkflow(@"2.Autopilot for developers\Generate low code workflow.xaml", new Dictionary<string, object> { }, default, default, default, GetAssemblyName());
+        }
+
+        /// <summary>
+        /// Invokes the 4.APIs/GetPublicIpAddress.xaml
+        /// </summary>
+		/// <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        public void GetPublicIpAddress(System.Boolean isolated)
+        {
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"4.APIs\GetPublicIpAddress.xaml", new Dictionary<string, object> { }, default, isolated, default, GetAssemblyName());
+        }
+
+        /// <summary>
+        /// Invokes the 4.APIs/GetPublicIpAddress.xaml
+        /// </summary>
+        public void GetPublicIpAddress()
+        {
+            var result = _services.WorkflowInvocationService.RunWorkflow(@"4.APIs\GetPublicIpAddress.xaml", new Dictionary<string, object> { }, default, default, default, GetAssemblyName());
         }
 
         /// <summary>

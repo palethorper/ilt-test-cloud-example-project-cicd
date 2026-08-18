@@ -4,6 +4,39 @@
         <name>Application Testing ILT.Core</name>
     </assembly>
     <members>
+        <member name="M:ApplicationTestingILT.WorkflowRunnerService.ApplyForLoan_ServiceConnection(System.Boolean)">
+            <summary>
+            Invokes the 4.APIs/ApplyForLoan-ServiceConnection.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ApplicationTestingILT.WorkflowRunnerService.ApplyForLoan_ServiceConnection">
+            <summary>
+            Invokes the 4.APIs/ApplyForLoan-ServiceConnection.xaml
+            </summary>
+        </member>
+        <member name="M:ApplicationTestingILT.WorkflowRunnerService.ApplyForLoanAPI(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,Application_Testing_ILT.UiBankLoanDataRob,System.Boolean)">
+            <summary>
+            Invokes the 4.APIs/ApplyForLoanAPI.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ApplicationTestingILT.WorkflowRunnerService.ApplyForLoanAPI(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,Application_Testing_ILT.UiBankLoanDataRob)">
+            <summary>
+            Invokes the 4.APIs/ApplyForLoanAPI.xaml
+            </summary>
+        </member>
+        <member name="M:ApplicationTestingILT.WorkflowRunnerService.ApplyForLoanAPI_2(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Boolean)">
+            <summary>
+            Invokes the 4.APIs/ApplyForLoanAPI-2.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ApplicationTestingILT.WorkflowRunnerService.ApplyForLoanAPI_2(System.Int32,System.Int32,System.Int32,System.Int32,System.String)">
+            <summary>
+            Invokes the 4.APIs/ApplyForLoanAPI-2.xaml
+            </summary>
+        </member>
         <member name="M:ApplicationTestingILT.WorkflowRunnerService.Approval_at_age_boundary_65(System.Boolean)">
             <summary>
             Invokes the Approval at age boundary 65.xaml
@@ -59,6 +92,17 @@
             Invokes the 3.Test Data Management/AI Generated/CreateLoanTestData.xaml
             </summary>
         </member>
+        <member name="M:ApplicationTestingILT.WorkflowRunnerService.DEmo_ExecutionTemplate(System.Boolean)">
+            <summary>
+            Invokes the DEmo-ExecutionTemplate.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ApplicationTestingILT.WorkflowRunnerService.DEmo_ExecutionTemplate">
+            <summary>
+            Invokes the DEmo-ExecutionTemplate.xaml
+            </summary>
+        </member>
         <member name="M:ApplicationTestingILT.WorkflowRunnerService.Dispatcher(System.Boolean)">
             <summary>
             Invokes the 3.Test Data Management/Test Data Queues/Dispatcher.xaml
@@ -90,6 +134,39 @@
         <member name="M:ApplicationTestingILT.WorkflowRunnerService.Generate_low_code_workflow">
             <summary>
             Invokes the 2.Autopilot for developers/Generate low code workflow.xaml
+            </summary>
+        </member>
+        <member name="M:ApplicationTestingILT.WorkflowRunnerService.GetPublicIpAddress(System.Boolean)">
+            <summary>
+            Invokes the 4.APIs/GetPublicIpAddress.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ApplicationTestingILT.WorkflowRunnerService.GetPublicIpAddress">
+            <summary>
+            Invokes the 4.APIs/GetPublicIpAddress.xaml
+            </summary>
+        </member>
+        <member name="M:ApplicationTestingILT.WorkflowRunnerService.Handling(System.Boolean)">
+            <summary>
+            Invokes the Handling.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ApplicationTestingILT.WorkflowRunnerService.Handling">
+            <summary>
+            Invokes the Handling.xaml
+            </summary>
+        </member>
+        <member name="M:ApplicationTestingILT.WorkflowRunnerService.NewQuoteFromServiceDefinitionInStudio(System.Boolean)">
+            <summary>
+            Invokes the 4.APIs/NewQuoteFromServiceDefinitionInStudio.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ApplicationTestingILT.WorkflowRunnerService.NewQuoteFromServiceDefinitionInStudio">
+            <summary>
+            Invokes the 4.APIs/NewQuoteFromServiceDefinitionInStudio.xaml
             </summary>
         </member>
         <member name="M:ApplicationTestingILT.WorkflowRunnerService.Sequence(System.Boolean)">
@@ -134,6 +211,17 @@
         <member name="M:ApplicationTestingILT.WorkflowRunnerService.Test_Data_Loan_Example(System.String,System.String,System.String,System.String,System.String,Application_Testing_ILT.UiBankLoanDataRob)">
             <summary>
             Invokes the Test Data Loan Example.xaml
+            </summary>
+        </member>
+        <member name="M:ApplicationTestingILT.WorkflowRunnerService.TestCase(System.Boolean)">
+            <summary>
+            Invokes the 4.APIs/TestCase.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ApplicationTestingILT.WorkflowRunnerService.TestCase">
+            <summary>
+            Invokes the 4.APIs/TestCase.xaml
             </summary>
         </member>
         <member name="M:ApplicationTestingILT.WorkflowRunnerService.Verifications(System.Boolean)">
